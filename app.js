@@ -17,7 +17,7 @@ const finalScore1 = document.querySelector('.finalScore1');
 const scores = [0,0];
 let currentScore = 0;
 let activePlayer = 0;
-let playing = true;
+
 image.style.display = 'none';
 currentPlayerOne.textContent = 0;
 currentPlayerTwo.textContent = 0;
