@@ -1,0 +1,83 @@
+body {
+    width: 1010px;
+    margin: 70px auto;
+    background-color: #c7365f;
+    font-family: 'Aclonica';
+}
+
+.mainContent {
+    display: flex;
+    width: 1000px;
+    box-shadow: 20px 20px 50px grey;
+    height: 70vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+.player0 {
+    width: 500px;
+    background-color: pink;
+    text-align: center;
+}
+
+.player1 {
+    width: 500px;
+    background-color: pink;
+    text-align: center;
+}
+
+.switchPlayer {
+    opacity: 0.7;
+}
+
+.content {
+    margin: 100px;
+}
+
+.currentScore {
+    margin-top: 200px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: #c7365f;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: lightpink;
+    color: black;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    transition: margin-top 5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: rotate(2deg);
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imageDice {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 450px;
+}
+
+.winner {
+    background-color: lightgreen !important;
+}
+
+.btnRemove {
+    display: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolling Dice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <main class="mainContent">
+            <section class="player0">
+                <div class="content">
+                    <h1>PLAYER 1</h1>
+                    <h1 class=" finalScore0">0</h1>
+                    <div class="currentScore">
+                        <h2>Current</h2>
+                        <h1 class="currentPlayer0">0</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="player1 switchPlayer">
+                <div class="content">
+                    <h1>PLAYER 2</h1>
+                    <h1 class=" finalScore1">0</h1>
+                    <div class="currentScore">
+                        <h2>Current</h2>
+                        <h1 class="currentPlayer1">0</h1>
+                    </div>
+                </div>
+            </section>
+
+            <img src="./dice-1.png" alt="" class="imageDice">
+        </main>
+        <div class="btnContainer">
+            <button class="btn btn-color newGameBtn">🔄 New Game</button>
+            <button class="btn btn-color rollDiceBtn" >🎲  Roll Dice</button>
+            <button class="btn btn-color holdBtn">📥  Hold</button>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
